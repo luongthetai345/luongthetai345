@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.form{
+    width: 600px;
+    max-width: 100%;
+    padding: 60px;
+    border-radius: 200px;
+}
+.form-group{
+    margin-bottom: 28px;
+}
+:root{
+    font-size: 18px;
+}
+body{
+    background: url(https://free.vector6.com/wp-content/uploads/2020/09/Free-vector-000460-thuc-te-bau-troi-xanh-nen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+h1 {
+    color: #d30a0a;
+    font-size: 40px;
+    box-sizing: content-box;
+    /* value default */
+  }
+  
+  /* 
+    text:
+    1. color
+    2. style: nghiêng/ đậm, mảnh, gạch chân.../
+  */
+  
+  h2 {
+    color: green;
+    font-style: italic;
+    font-weight: 900;
+  }
+.form{
+    margin: 0 auto;
+}
+section{
+    font-style:oblique;
+}
+

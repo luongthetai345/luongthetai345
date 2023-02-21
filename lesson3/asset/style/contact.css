@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.form{
+    width: 400px;
+    max-width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-group{
+    margin-bottom: 28px;
+}
+:root{
+    font-size: 18px;
+}
+body{
+    background: url(https://free.vector6.com/wp-content/uploads/2020/09/Free-vector-000460-thuc-te-bau-troi-xanh-nen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}.form{
+    margin: 0 auto;
+}
+.form> .btn-submit{
+    padding: 12px 28px;
+    min-width: 60px;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: red;
+    transition: all ease-in-out 2s;
+}
+.form> .btn-submit:hover{
+    background-color: pink;
+    color: red;
+}
