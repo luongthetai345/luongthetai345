@@ -26,6 +26,8 @@ if(Number.isInteger(a)){
     } else{
         console.log("số lẻ");
     }
+}else{
+    console.log("Không là số nguyên");
 }
 //BT3
 console.log("Bài tập 3: ");
@@ -33,7 +35,11 @@ var b;
 b = prompt("Nhập b: ");
 b = parseInt(b);
 if(Number.isInteger(Math.sqrt(b))){
-    console.log("La so chinh phuong");
+    console.log("Là số chính phương");
 }else{
-    console.log("Ko la so chinh phuong");
+    console.log("Ko là số chính phương");
 }
+//BT4
+console.log("Bài tập 4");
+const c = 123456;
+console.log(c.toString().length);
