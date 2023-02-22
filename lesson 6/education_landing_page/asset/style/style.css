@@ -96,7 +96,6 @@ a.header__category:hover:before {
   background-color: transparent;
   margin-right: 5em;
   position: relative;
-  /* transition: .5s; */
   overflow: hidden;
   
 }
@@ -122,26 +121,26 @@ a.header__category:hover:before {
   color: #E8E6E3;
 }
 
-.hero {
+.list {
   grid-area: hero;
   width: 100%;
   display: flex;
   align-self: center;
 }
 
-.hero__caption {
+.list__caption {
   width: 50%;
   float: left;
   padding: 6em;
 }
 
-.hero__title {
+.list__title {
   font-size: 3.4rem;
   line-height: 1.5em;
   font-weight: 600;
 }
 
-.hero__sub-title {
+.list__sub-title {
   font-size: 1.5rem;
   color: #9B948E;
   margin-top: 1.5em;
@@ -149,7 +148,7 @@ a.header__category:hover:before {
   line-height: 1.5em;
 }
 
-.hero__btn {
+.list__btn {
   display: inline-block;
   padding: .5em 1em;
   background-color: #96C67F;
@@ -160,7 +159,7 @@ a.header__category:hover:before {
 
 }
 
-.hero__btn:before {
+.list__btn:before {
   content: '';
   position: absolute;
   top: 0;
@@ -174,19 +173,19 @@ a.header__category:hover:before {
 
 }
 
-.hero__btn:hover:before {
+.list__btn:hover:before {
   transform: translateX(0);
   color: black;
 }
 
-.hero__img-holder {
+.list__img-holder {
   width: 50%;
   float: left;
   padding: 2em 4em;
   position: relative;
 }
 
-img.hero__figure-0 {
+img.list__figure-0 {
   width: 65%;
   animation-name: name;
   animation-duration: 2s;
@@ -205,7 +204,7 @@ img.hero__figure-0 {
   100% {transform: translateY(20px);}
 }    
 
-img.hero__decor-1 {
+img.list__decor-1 {
   width: 10%;
   position: absolute;
   bottom: 42%;
@@ -215,7 +214,7 @@ img.hero__decor-1 {
 
 }
 
-img.hero__decor-2 {
+img.list__decor-2 {
   width: 20%;
   border-radius: 1em;
   position: absolute;
@@ -231,7 +230,6 @@ img.hero__decor-2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin-top: 3em; */
 }
 
 .partner__caption {
