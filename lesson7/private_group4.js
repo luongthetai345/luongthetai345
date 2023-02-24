@@ -48,26 +48,26 @@ console.log("Bài tập 4");
 var c;
 c = prompt("Nhập c: " + c);
 console.log(c.toString().length);
-//Số nguyên tố
+//Tìm Số nguyên tố
 var n;
 n = prompt("Nhập n: ");
 n = parseInt(n);
 function kiem_tra_snt(n)
 {
-    var flag = true;
+    var x = true;
     if (n < 2){
-        flag = false;
+        x = false;
     }
     else{
         for (var i = 2; i < n-1; i++)
         {
             if (n % i == 0){
-                flag = false;
+                x = false;
                 break;
             }
         }
     }
-    if (flag == true){
+    if (x == true){
         console.log(n + " là số nguyên tố");
     }
     else{
