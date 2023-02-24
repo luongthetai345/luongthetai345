@@ -27,19 +27,51 @@ if(Number.isInteger(a)){
         console.log("số lẻ");
     }
 }else{
-    console.log("Không là số nguyên");
+    console.log(a + "Không là số nguyên");
 }
 //BT3
 console.log("Bài tập 3: ");
 var b;
 b = prompt("Nhập b: ");
 b = parseInt(b);
-if(Number.isInteger(Math.sqrt(b))){
-    console.log("Là số chính phương");
+if(Number.isInteger(b)){
+    if(Number.isInteger(Math.sqrt(b))){
+        console.log("Là số chính phương");
+    }else{
+        console.log("Ko là số chính phương");
+    }
 }else{
-    console.log("Ko là số chính phương");
+    console.log(b + "không là số nguyên")
 }
 //BT4
 console.log("Bài tập 4");
-const c = 123456;
+var c;
+c = prompt("Nhập c: " + c);
 console.log(c.toString().length);
+//Số nguyên tố
+var n;
+n = prompt("Nhập n: ");
+n = parseInt(n);
+function kiem_tra_snt(n)
+{
+    var flag = true;
+    if (n < 2){
+        flag = false;
+    }
+    else{
+        for (var i = 2; i < n-1; i++)
+        {
+            if (n % i == 0){
+                flag = false;
+                break;
+            }
+        }
+    }
+    if (flag == true){
+        console.log(n + " là số nguyên tố");
+    }
+    else{
+        console.log(n + " không phải là số nguyên tố");
+    }
+}
+kiem_tra_snt(n);
