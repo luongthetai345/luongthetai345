@@ -48,7 +48,31 @@ console.log("Bài tập 4");
 var c;
 c = prompt("Nhập c: " + c);
 console.log(c.toString().length);
+//switch case
+console.log("Hàm switch case: ")
+var d;
+d = prompt("Nhập d: ");
+switch (d){
+    case "TB" : 
+        console.log("Học sinh Trung Bình!");
+        break;
+    case "K":
+        console.log("Học sinh Khá!");
+        break;
+    case "G":
+        console.log("Học sinh Giỏi!");
+    default:
+        console.log("Nhập sai kí tự");  
+}
+//do...while, exception
+console.log("hàm do while: ")
+do{
+    p = prompt("Nhập p: ");
+    p = parseInt(p);
+    console.log(p);
+} while(p < 0 || p > 10)
 //Tìm Số nguyên tố
+console.log("Tím số nguyên tố: ")
 var n;
 n = prompt("Nhập n: ");
 n = parseInt(n);
