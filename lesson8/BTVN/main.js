@@ -27,4 +27,4 @@ function TongCacSoChan(Number){
     }
     console.log("Tổng các số chẵn là: " + tong);
 }
-TongCacSoChan(10);
+TongCacSoChan(10)
