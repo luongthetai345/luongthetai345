@@ -40,13 +40,16 @@ function Timsohoanhao(Number){
             tong = tong + i;
         }
     }
-    if (tong === Number & Number !== 0){
+    if(Number == 1){
+        console.log(Number + " là số hoàn hảo");
+    }
+    else if (tong === Number & Number !== 0 & Number !== 1){
         console.log(Number + " là số hoàn hảo");
     } else{
         console.log(Number + " ko là số hoàn hảo");
     }
 }
-Timsohoanhao(12);
+Timsohoanhao(1);
 //BT6
 // Right-angled triangle
 
