@@ -28,16 +28,3 @@ function TongCacSoChan(Number){
     console.log("Tổng các số chẵn là: " + tong);
 }
 TongCacSoChan(10);
-var n;
-prompt ("Nhập n: ");
-n = parseInt(n);
-var car = Array[n];
-car = {
-    brand: String,
-    year: Number.isInteger,
-    color: String
-}
-for(i = 0; i < n; i++){
-    var car[i];
-    prompt("Nhập car: ");
-}
