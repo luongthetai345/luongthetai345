@@ -383,7 +383,6 @@ function arrayValuesTypes(array) {
   let new_array = [];
   let lengthArr = array.length;
   for (let i = 0; i < lengthArr; i++){
-      // Cach 1: console.log(typeof(array[i]));
       new_array.push(console.log(typeof(array[i])));
   }
   new_array.pop();
